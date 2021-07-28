@@ -1,8 +1,4 @@
-# numbers list
-numbers = [15, 19, 18, 8, 9, 4 ]
-
-#sort the number list
-numbers.sort(reverse=True)
-
-#print the numbers
-print('sorted list in (Descending):', numbers)
+val = [int(i) for i in input('Enter the numbers:').split()]
+val.sort()    #sorts the list
+val.reverse() #reverse the sorted list
+print(val)
